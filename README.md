@@ -1,36 +1,30 @@
 <div align = "center">
 
-<h1><a href="https://github.com/sanurb/bare-minimum">bare-minimum</a></h1>
+<h1><a href="https://github.com/sanurb/mkrepo">mkrepo</a></h1>
 
-<a href="https://github.com/sanurb/bare-minimum/blob/main/LICENSE">
-<img alt="License" src="https://img.shields.io/github/license/sanurb/bare-minimum?style=flat&color=eee&label="> </a>
+<a href="https://github.com/sanurb/mkrepo/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/sanurb/mkrepo?style=flat&color=eee&label="> </a>
 
-<a href="https://github.com/sanurb/bare-minimum/graphs/contributors">
-<img alt="People" src="https://img.shields.io/github/contributors/sanurb/bare-minimum?style=flat&color=ffaaf2&label=People"> </a>
+<a href="https://github.com/sanurb/mkrepo/graphs/contributors">
+<img alt="People" src="https://img.shields.io/github/contributors/sanurb/mkrepo?style=flat&color=ffaaf2&label=People"> </a>
 
-<a href="https://github.com/sanurb/bare-minimum/stargazers">
-<img alt="Stars" src="https://img.shields.io/github/stars/sanurb/bare-minimum?style=flat&color=98c379&label=Stars"></a>
+<a href="https://github.com/sanurb/mkrepo/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/sanurb/mkrepo?style=flat&color=98c379&label=Stars"></a>
 
-<a href="https://github.com/sanurb/bare-minimum/network/members">
-<img alt="Forks" src="https://img.shields.io/github/forks/sanurb/bare-minimum?style=flat&color=66a8e0&label=Forks"> </a>
+<a href="https://github.com/sanurb/mkrepo/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/sanurb/mkrepo?style=flat&color=66a8e0&label=Forks"> </a>
 
-<a href="https://github.com/sanurb/bare-minimum/watchers">
-<img alt="Watches" src="https://img.shields.io/github/watchers/sanurb/bare-minimum?style=flat&color=f5d08b&label=Watches"> </a>
+<a href="https://github.com/sanurb/mkrepo/watchers">
+<img alt="Watches" src="https://img.shields.io/github/watchers/sanurb/mkrepo?style=flat&color=f5d08b&label=Watches"> </a>
 
-<a href="https://github.com/sanurb/bare-minimum/pulse">
-<img alt="Last Updated" src="https://img.shields.io/github/last-commit/sanurb/bare-minimum?style=flat&color=e06c75&label="> </a>
+<a href="https://github.com/sanurb/mkrepo/pulse">
+<img alt="Last Updated" src="https://img.shields.io/github/last-commit/sanurb/mkrepo?style=flat&color=e06c75&label="> </a>
 
-<h3>Short Sweet Headline 🎇🎉</h3>
-
-<figure>
-  <img src="./assets/screenshot.png" alt="bare-minimum in action">
-  <br/>
-  <figcaption>bare-minimum in action</figcaption>
-</figure>
+<h3>Ready to go repos from the CLI 🏎️💨</h3>
 
 </div>
 
-bare-minimum is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+mkrepo is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -63,11 +57,11 @@ bare-minimum is a `<utility/tool>` that allows `<target_audience>` to `<action>`
 
 ### 💻 Installation
 
-Installing bare-minimum is as simple as cloning and symlinking!
+Installing mkrepo is as simple as cloning and symlinking!
 
 ```bash
-git clone https://github.com/sanurb/bare-minimum
-cd bare-minimum
+git clone https://github.com/sanurb/mkrepo
+cd mkrepo
 <install_command>
 ```
 
@@ -75,9 +69,9 @@ cd bare-minimum
 
 ```bash
 USAGE:
-    bare-minimum [FLAGS] [OPTIONS]
+    mkrepo [FLAGS] [OPTIONS]
 Example:
-    bare-minimum
+    mkrepo
 ```
 
 ## 🏗️ What's Next
@@ -94,7 +88,7 @@ Planning to add `<feature/module>`.
 
 ### 🌈 Inspiration
 
-bare-minimum was inspired by `<reason/idea>`.
+mkrepo was inspired by `<reason/idea>`.
 
 ### 💡 Challenges/Learnings
 
@@ -107,7 +101,7 @@ bare-minimum was inspired by `<reason/idea>`.
 
 <strong>⭐ hit the star button if you found this useful ⭐</strong><br>
 
-<a href="https://github.com/sanurb/bare-minimum">Source</a>
+<a href="https://github.com/sanurb/mkrepo">Source</a>
 | <a href="https://linkedin.com/in/sanurb" target="_blank">LinkedIn </a>
 | <a href="https://sanurb.github.io/projects" target="_blank">Other Projects </a>
 
