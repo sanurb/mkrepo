@@ -11,7 +11,7 @@ import (
 
 func CheckGHCLI() error {
 	if _, err := exec.LookPath("gh"); err != nil {
-		return fmt.Errorf("Error: The 'gh' command is not available. Make sure GitHub CLI is installed")
+		return fmt.Errorf("error: The 'gh' command is not available. Make sure GitHub CLI is installed")
 	}
 	return nil
 }
