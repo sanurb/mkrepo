@@ -35,8 +35,6 @@ mkrepo is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
   - [⚙️ Requirements](#-requirements)
   - [💻 Installation](#-installation)
 - [🚀 Usage](#-usage)
-- [🏗️ What's Next](#-whats-next)
-  - [✅ To-Do](#-to-do)
 - [🧑‍💻 Behind The Code](#-behind-the-code)
   - [🌈 Inspiration](#-inspiration)
   - [💡 Challenges/Learnings](#-challengeslearnings)
@@ -45,55 +43,49 @@ mkrepo is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
 
 ## ✨ Features
 
-- Comes with a ready to go README template
-- Works with [mkrepo](https://github.com/sanurb/mkrepo)
+- Automates the creation and setup of GitHub repositories.
+- Configures remote origin for immediate push capability.
+- Optional creation of public or private repositories.
 
 ## ⚡ Setup
 
 ### ⚙️ Requirements
 
-- foo >= bar
-- bazz
+- [Go](https://golang.org/dl/) 1.15 or higher
+- [GitHub CLI](https://cli.github.com/)
 
 ### 💻 Installation
 
-Installing mkrepo is as simple as cloning and symlinking!
+Install mkrepo using Go:
 
 ```bash
-git clone https://github.com/sanurb/mkrepo
-cd mkrepo
-<install_command>
+go install github.com/sanurb/mkrepo@latest
 ```
 
 ## 🚀 Usage
 
 ```bash
-USAGE:
-    mkrepo [FLAGS] [OPTIONS]
-Example:
-    mkrepo
+mkrepo <repoName> [options]
 ```
 
-## 🏗️ What's Next
 
-Planning to add `<feature/module>`.
+| Option         | Description                                                               | Default                         | Required |
+|----------------|---------------------------------------------------------------------------|---------------------------------|----------|
+| `<repoName>`   | The name of the new repository to create.                                 | None                            | Yes      |
+| `[templateName]` | The name of the template repository to use.                              | `'bare-minimum'`                | No       |
+| `[description]` | A brief description of the repository.                                   | `'Short Sweet Headline 🎇🎉'`   | No       |
+| `--public`     | Include this flag to make the repository public. Omit for a private repo. | Private                         | No       |
 
-### ✅ To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
 
 ## 🧑‍💻 Behind The Code
 
 ### 🌈 Inspiration
 
-mkrepo was inspired by `<reason/idea>`.
+The inspiration for mkrepo came from the need to simplify repetitive tasks faced by developers when setting up new projects on GitHub.
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
+- Key learnings include mastering Go's CLI framework, Cobra
 
 <hr>
 
