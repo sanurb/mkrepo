@@ -24,7 +24,7 @@
 
 </div>
 
-mkrepo is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+**mkrepo** is a simple CLI tool that enhances the functionality of the GitHub CLI to streamline the creation of repositories. By handling setup tasks such as initializing the repository and setting up remotes, **mkrepo** allows developers to start coding immediately without worrying about initial setup chores.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
