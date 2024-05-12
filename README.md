@@ -64,18 +64,47 @@ go install github.com/sanurb/mkrepo@latest
 
 ## 🚀 Usage
 
-```bash
-mkrepo <repoName> [options]
-```
+`mkrepo` offers various functionalities to streamline working with GitHub repositories directly from your command line. Below are the commands available:
 
+### Basic Commands
+
+- **Create Repository**
+  ```bash
+  mkrepo <repoName> [options]
+  ```
+  Create a new repository based on specified options. Refer to the [Options](#options) section for more details.
+
+### Listing Organizations
+
+- **List Organizations**
+  ```bash
+  mkrepo list-orgs [--limit <int>]
+  ```
+  List the GitHub organizations associated with the authenticated user. By default, it lists 30 organizations but you can specify more with the `--limit` option.
+
+  #### Examples
+
+  - List the first 30 organizations:
+    ```bash
+    mkrepo list-orgs
+    ```
+  - List up to 100 organizations:
+    ```bash
+    mkrepo list-orgs --limit 100
+    ```
+
+## Options
+
+Here ares the available options for the `mkrepo` command:
 
 | Option         | Description                                                               | Default                         | Required |
 |----------------|---------------------------------------------------------------------------|---------------------------------|----------|
 | `<repoName>`   | The name of the new repository to create.                                 | None                            | Yes      |
 | `[templateName]` | The name of the template repository to use.                              | `'bare-minimum'`                | No       |
 | `[description]` | A brief description of the repository.                                   | `'Short Sweet Headline 🎇🎉'`   | No       |
-| `--public`     | Include this flag to make the repository public. Omit for a private repo. | Private                         | No       |
+| `--public`     | Include this flag to make the repository public. Omit it for a private repository. | Private                         | No       |
 | `--org`        | Specify the organization under which the repository will be created.      | None                            | No       |
+| `--limit`      | Used with `list-orgs` to specify the maximum number of organizations to list. | 30                              | No       |
 
 
 ## 🧑‍💻 Behind The Code
