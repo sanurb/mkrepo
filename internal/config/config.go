@@ -5,4 +5,5 @@ type RepoConfig struct {
 	TemplateName string
 	Description  string
 	IsPublic     bool
+	OrgName      string
 }

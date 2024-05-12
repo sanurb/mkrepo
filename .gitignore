@@ -103,4 +103,6 @@ fabric.properties
 *.iml
 modules.xml
 .idea/misc.xml
+.idea/.gitignore
 *.ipr
+.idea/vcs.xml

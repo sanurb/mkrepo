@@ -75,6 +75,7 @@ mkrepo <repoName> [options]
 | `[templateName]` | The name of the template repository to use.                              | `'bare-minimum'`                | No       |
 | `[description]` | A brief description of the repository.                                   | `'Short Sweet Headline 🎇🎉'`   | No       |
 | `--public`     | Include this flag to make the repository public. Omit for a private repo. | Private                         | No       |
+| `--org`        | Specify the organization under which the repository will be created.      | None                            | No       |
 
 
 ## 🧑‍💻 Behind The Code

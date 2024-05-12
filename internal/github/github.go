@@ -22,7 +22,12 @@ func CreateRepository(cfg config.RepoConfig) error {
 		visibility = "--public"
 	}
 
-	cmd := exec.Command("gh", "repo", "create", cfg.RepoName, visibility, "-p", cfg.TemplateName, "-d", cfg.Description)
+	repoPath := cfg.RepoName
+	if cfg.OrgName != "" {
+		repoPath = fmt.Sprintf("%s/%s", cfg.OrgName, cfg.RepoName)
+	}
+
+	cmd := exec.Command("gh", "repo", "create", repoPath, visibility, "-p", cfg.TemplateName, "-d", cfg.Description)
 	cmd.Stderr = os.Stderr
 	cmd.Stdout = os.Stdout
 	err := cmd.Run()
