@@ -20,6 +20,12 @@
 <a href="https://github.com/sanurb/mkrepo/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/sanurb/mkrepo?style=flat&color=e06c75&label="> </a>
 
+<figure>
+  <img src="https://github.com/user-attachments/assets/d0561c60-b563-467f-9276-2aa4c81e95f6" alt="mkrepo in action">
+  <br/>
+  <figcaption>mkrepo in action</figcaption>
+</figure>
+
 <h3>Ready to go repos from the CLI 🏎️💨</h3>
 
 </div>
